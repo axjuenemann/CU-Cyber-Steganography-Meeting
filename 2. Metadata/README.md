@@ -5,7 +5,7 @@ Conveniently, we can edit this data to hide our own messages!
 
 The tool of choice for viewing this metadata is `exiftool`
 
-Important Commands:
+**Important Commands:**
 
 `exiftool file`: shows metadata of the passed in file
 
