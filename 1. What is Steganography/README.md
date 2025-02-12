@@ -9,8 +9,11 @@ There are so many steganography techniques and ways to hide data, so this lesson
 In order to understand the basics of Steganography, we are first going to use the tool Steghide. This tool allows us to hide data in various image and audio file types, as well as extract it.
 
 Important commands:
+
 `steghide info file`: Displays information about a file and whether it contains embedded data
+
 `steghide embed -cf cvr.jpg -ef emb.txt`: Embeds the text file into the jpg file
+
 `steghide extract -sf file`: Extracts embedded data from the file
 
 Let's try it out!
