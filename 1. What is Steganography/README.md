@@ -3,7 +3,7 @@ Steganography is the practice of hiding secret messages in ordinary files or obj
 
 Why is steganography important? Outside of being a fun CTF category, steganography allows messages to be hidden in plain sight and could be used to exfiltrate data by malicious actors or inject malware payloads (rare but possible). As aspiring students in cybersecurity, it is up to us to catch this! Whether it’s the invisible ink pen you used to trade notes with your friends in school, or a message hidden in an audio file in a jpeg, throughout this lesson, we are going to cover the tools of the trade so you too can discover these messages!
 
-There are so many steganography techniques and ways to hide data, so this lesson will cover the most common CTF methods, 
+There are so many steganography techniques and ways to hide data, so this lesson will cover the most common CTF methods.
 
 ### Exercise 1 - Hiding Your Own Text Messages
 In order to understand the basics of Steganography, we are first going to use the tool Steghide. This tool allows us to hide data in various image and audio file types, as well as extract it.
