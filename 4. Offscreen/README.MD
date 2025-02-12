@@ -1,5 +1,5 @@
 # 4. Offscreen
-Hex editing is a big piece steganograpy as at the end of the data, the hidden data is stored within the hex of the original file! However, hex editing can be powerful, especially when hiding a message in an image without actually embedding any new files into it! The `pngcheck` tool can be used to look for broken or corrupted chunks in a file, which can reveal sometimes if a png has been tampered with.
+Hex editing is a big piece steganography as at the end of the data, the hidden data is stored within the hex of the original file! However, hex editing can be powerful, especially when hiding a message in an image without actually embedding any new files into it! The `pngcheck` tool can be used to look for broken or corrupted chunks in a file, which can reveal sometimes if a png has been tampered with.
 
 **Important Command:**
 
@@ -9,7 +9,7 @@ One of the easiest ways to abuse the file format of a PNG is to edit the width o
 
 As you can see, this image has very vital text that I wouldn't want the wrong hands to get ahold of, but my message channel has been tapped!
 
-Knowing the PNG file format, I know that the width and height bytes occur after the IHDR bytes. Each gets 4 bytes repsectively, and I can now shorten my image to crop out my hidden message for now. 
+Knowing the PNG file format, I know that the width and height bytes occur after the IHDR bytes. Each gets 4 bytes respectively, and I can now shorten my image to crop out my hidden message for now. 
 
 Oops, but now when using `pngcheck` I am getting an error that the CRC value is off. 
 
