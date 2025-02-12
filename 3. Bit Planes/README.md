@@ -7,3 +7,12 @@ Simply upload the image, press "Browse Bit Planes" and start clicking through th
 
 ### Exercise 1 - Did You See It? (Deadface CTF 2024)
 It seems that something off has been happening in this town but we just can't see it! What is the flag? (Use didyouseeit.png)
+
+<details>
+  <summary>Solution:</summary>
+  <p>Red Plane 0 should reveal the following image:
+    https://github.com/user-attachments/assets/0b1ddeef-e361-4b45-9427-f4cd4e3183cd
+
+</p>
+
+</details>
