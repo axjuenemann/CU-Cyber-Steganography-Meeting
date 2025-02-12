@@ -1,4 +1,5 @@
 # CU-Cyber-Steganography-Meeting
+![image](https://github.com/user-attachments/assets/81f6a9fc-aaab-4dcb-875a-87911144ed84)
 This repo was created for the purpose of Steganography education through the CU Cyber Club.
 
 Each folder is an exercise used in the meeting.
