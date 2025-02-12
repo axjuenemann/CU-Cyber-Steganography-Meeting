@@ -8,9 +8,11 @@ Hex editing is a big piece of steganography as at the end of the data, the hidde
 One of the easiest ways to abuse the file format of a PNG is to edit the width or the height of the image to hide content that's still there, but can no longer be seen. For example, look at the below process:
 
 As you can see, this image has very vital text that I wouldn't want the wrong hands to get ahold of, but my message channel has been tapped!
+
 ![image](https://github.com/user-attachments/assets/98aed681-7736-43b8-a6bd-b72aaed2beb4)
 
 Knowing the PNG file format, I know that the width and height bytes occur after the IHDR bytes. Each gets 4 bytes respectively, and I can now shorten my image to crop out my hidden message for now. 
+
 ![Screenshot 2025-02-12 155404](https://github.com/user-attachments/assets/2e34d87f-a6c1-4c10-b139-023ae6bc8300)
 
 Oops, but now when using `pngcheck` I am getting an error that the CRC value is off. 
@@ -18,6 +20,7 @@ Oops, but now when using `pngcheck` I am getting an error that the CRC value is 
 `CRC error in chunk IHDR (computed cd0dc2f8, expected 684fb6e4)`
 
 By simply replacing the old CRC value with the expected one in the hex editor, this image is ready to send! 
+
 ![rick](https://github.com/user-attachments/assets/736f630f-70d9-4ffe-9fe1-a0736c17044e)
 
 ### Exercise 1 - Cropped Out of My Life
