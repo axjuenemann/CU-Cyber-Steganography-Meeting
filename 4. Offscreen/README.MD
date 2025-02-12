@@ -11,6 +11,7 @@ As you can see, this image has very vital text that I wouldn't want the wrong ha
 ![image](https://github.com/user-attachments/assets/98aed681-7736-43b8-a6bd-b72aaed2beb4)
 
 Knowing the PNG file format, I know that the width and height bytes occur after the IHDR bytes. Each gets 4 bytes respectively, and I can now shorten my image to crop out my hidden message for now. 
+![Screenshot 2025-02-12 155404](https://github.com/user-attachments/assets/2e34d87f-a6c1-4c10-b139-023ae6bc8300)
 
 Oops, but now when using `pngcheck` I am getting an error that the CRC value is off. 
 
