@@ -1,5 +1,5 @@
 # 4. Offscreen
-Hex editing is a big piece steganography as at the end of the data, the hidden data is stored within the hex of the original file! However, hex editing can be powerful, especially when hiding a message in an image without actually embedding any new files into it! The `pngcheck` tool can be used to look for broken or corrupted chunks in a file, which can reveal sometimes if a png has been tampered with.
+Hex editing is a big piece of steganography as at the end of the data, the hidden data is stored within the hex of the original file! However, hex editing can be powerful, especially when hiding a message in an image without actually embedding any new files into it! The `pngcheck` tool can be used to look for broken or corrupted chunks in a file, which can reveal sometimes if a png has been tampered with.
 
 **Important Command:**
 
