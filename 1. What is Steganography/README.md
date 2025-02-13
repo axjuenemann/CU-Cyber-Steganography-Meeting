@@ -30,4 +30,4 @@ Using steghide again, see if you can hide your image containing a text file into
 Congrats, you've now successfully learned how to hide very basic files and secretly send messages in plain sight!
 
 ### Challenge 1
-See if you can slip a secret message into the Discord using the "memes" channel before next meeting. Bonus points if it's a picture of any pets you may have as your hidden message. Bonus bonus points if that hideen image contains a text file with their names :D
+See if you can slip a secret message into the Discord using the "memes" channel before next meeting. Bonus points if it's a picture of any pets you may have as your hidden message. Bonus bonus points if that hidden image contains a text file with their names :D

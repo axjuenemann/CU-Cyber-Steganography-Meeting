@@ -5,6 +5,8 @@ As you can see, this image has very vital text that I wouldn't want the wrong ha
 ![image](https://github.com/user-attachments/assets/98aed681-7736-43b8-a6bd-b72aaed2beb4)
 Knowing the PNG file format, I know that the width and height bytes occur after the IHDR bytes. Each gets 4 bytes respectively, and I can now shorten my image to crop out my hidden message for now.
 
+![Screenshot 2025-02-12 155404](https://github.com/user-attachments/assets/2e34d87f-a6c1-4c10-b139-023ae6bc8300)
+
 There's more to consider, however. The PNG file format includes checksums at the end of each chunk that serves as a sort of "verification" that the chunk hasn't been corrupted in some way. We can examine the integrity of a PNG through these checksums using the `pngcheck` tool.
 
 **Important Command:**
@@ -16,6 +18,8 @@ Oops! When using `pngcheck` on our tampered image, we get an error that the CRC 
 `CRC error in chunk IHDR (computed cd0dc2f8, expected 684fb6e4)`
 
 It seems that our tampering triggered the PNG's built-in corruption check. Luckily, this is easily bypassable. By simply replacing the old CRC value with the expected one in the hex editor, this image is ready to send!
+
+![rick](https://github.com/user-attachments/assets/736f630f-70d9-4ffe-9fe1-a0736c17044e)
 
 ### Exercise 1 - Cropped Out of My Life
 1. Create an image with a message written on the bottom, and then crop that image out using hex editing! 
