@@ -41,7 +41,7 @@ But this one's a jpg? (use Worldview.jpg)
 	<ol>
 		<li>Upload the image into CyberChef. You can drag and drop it or use the "open file as input" button in the top right corner. Then drop "To Hex" into your recipe.</li>
 		<li>Copy and paste the output into a text file.</li>
-		<li>Search for the hex string "ff c0". This set of bytes denotes the [JPEG marker ](https://en.wikipedia.org/wiki/JPEG#Syntax_and_structure) SOF0, which includes width and height information.</li>
+		<li>Search for the hex string "ff c0". This set of bytes denotes the JPEG marker (https://en.wikipedia.org/wiki/JPEG#Syntax_and_structure) SOF0, which includes width and height information.</li>
 		<li>You should see a string of bytes that looks like "ff c0 00 11 08 00 af 00 64". Of these bytes, change "af" (175 in decimal) to "ff" (255). In other words, that string of bytes should now read "ff c0 00 11 08 00 ff 00 64". This changes the width from 175 to 255.</li>
 		<li>Select the entire text file (ctrl+a) and copy+paste all of it into a new CyberChef window. Put "from hex" and then "render image" into the recipe.</li>
 		<li>Tadaaaaaa! :)</li>
