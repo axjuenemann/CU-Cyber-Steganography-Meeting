@@ -27,16 +27,17 @@ It seems that our tampering triggered the PNG's built-in corruption check. Lucki
 3. Take your partner's image and undo the crop!
 
 ### Challenge 1 - Princess (DeadFace 2024)
-Rumor has it this image of Princess used to have a dog bowl in it... what is the flag?
+Rumor has it this image of Princess used to have a dog bowl in it... what is the flag? (use princess.png)
 
 ### Challenge 2 - Look the Other Way
-We just intercepted what we believe to be very malicious actors sending a png file. Other tools fail to indicate that anything is hidden in this, but can you find something, it looks unnatural? We think the width may be off by a value of 1... (Use the challenge.png file)
+We just intercepted what we believe to be very malicious actors sending a png file. Other tools fail to indicate that anything is hidden in this, but can you find something, it looks unnatural? We think the width may be off by a value of 1... (use the challenge.png file)
 
 ### Challenge 3 - Worldview (Original, but based off an NCL challenge some years back)
 But this one's a jpg? (use Worldview.jpg)
 
 <details>
 	<summary>Solution:</summary>
+	
 	<p>The general principle is the same - but now you must research the JPG format instead.</p>
 	<ol>
 		<li>Upload the image into CyberChef. You can drag and drop it or use the "open file as input" button in the top right corner. Then drop "To Hex" into your recipe.</li>
