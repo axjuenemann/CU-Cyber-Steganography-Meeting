@@ -37,7 +37,6 @@ But this one's a jpg? (use Worldview.jpg)
 
 <details>
 	<summary>Solution:</summary>
-	
 	<p>The general principle is the same - but now you must research the JPG format instead.</p>
 	<ol>
 		<li>Upload the image into CyberChef. You can drag and drop it or use the "open file as input" button in the top right corner. Then drop "To Hex" into your recipe.</li>
